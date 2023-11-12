@@ -1,0 +1,19 @@
+.body-bg{
+    background-color: black;
+    transition:width 1s ease-in-out;
+}
+
+.hello{
+    color: white;
+}
+
+.card{
+    transition:width 1s ease-in-out;
+}
+
+@media only screen and (max-width: 728px){
+    .card{
+        width: 140%;
+        margin-left: -100;
+    }
+}

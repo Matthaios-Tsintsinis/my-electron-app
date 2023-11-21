@@ -1,0 +1,102 @@
+.body-bg {
+  background-color: black;
+  transition: width 1s ease-in-out;
+}
+
+.hello {
+  color: white;
+}
+
+.card {
+  transition: width 1s ease-in-out;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  width: 100vw;
+  text-align: center;
+}
+
+.comparison-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 100vw;
+  gap: 3rem;
+}
+
+.grid-container {
+  background-color: #2b3035;
+  text-align: center;
+  display: inline-grid;
+  justify-content: center;
+  width: 70%;
+  height: 90%;
+  grid-template-columns: minmax(auto, 35%) 60px minmax(auto, 35%);
+  grid-template-rows: minmax(17%, auto);
+  row-gap: 2rem;
+  border: 1px white solid;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.item-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.measurement-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #adb5bd !important;
+  width: 100%;
+  text-align: center;
+}
+
+.item-title,
+.measurement-title {
+  overflow-wrap: break-word;
+  display: block !important;
+}
+
+.measurement-value {
+  background-color: #343a40;
+  font-size: large;
+}
+
+.measurement-operator {
+  color: green;
+}
+
+.grid-container div {
+  color: white;
+}
+
+.grid-container div,
+.grid-container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #383f46;
+  padding: 0 0.2rem;
+}
+
+@media only screen and (max-width: 728px) {
+  .card {
+    width: 140%;
+    margin-left: -100;
+  }
+
+  .grid-container {
+    width: 100%;
+  }
+}

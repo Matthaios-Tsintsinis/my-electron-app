@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="body-bg">
+    <h1 class="hello">Hello!</h1>
+
+    <div class="col-8 my-5">
+      <div class="card">
+        <div class="card-body">
+          <h5>
+            This is the first test and now this is the first commit to the
+            branch!
+          </h5>
+          <hr />
+          <canvas id="myChart"></canvas>
+          <hr />
+          <canvas id="myChart2"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="comparison-container">
+      <h2 class="title">Comparison</h2>
+      <div class="grid-container">
+        <div class="item-title">Corner 1</div>
+        <span></span>
+        <div class="item-title">Corner 2</div>
+
+        <div>
+          <div class="measurement-title">Speed</div>
+          <div class="measurement-value">80</div>
+        </div>
+        <span class="measurement-operator"><</span>
+        <div>
+          <div class="measurement-title">Speed</div>
+          <div class="measurement-value">85</div>
+        </div>
+
+        <div>
+          <div class="measurement-title">Heat</div>
+          <div class="measurement-value">63</div>
+        </div>
+        <span class="measurement-operator"><</span>
+        <div>
+          <div class="measurement-title">Heat</div>
+          <div class="measurement-value">70</div>
+        </div>
+
+        <div>
+          <div class="measurement-title">Battery</div>
+          <div class="measurement-value">80</div>
+        </div>
+        <span class="measurement-operator">></span>
+        <div>
+          <div class="measurement-title">Battery</div>
+          <div class="measurement-value">67</div>
+        </div>
+
+        <div>
+          <div class="measurement-title">Angle</div>
+          <div class="measurement-value">45</div>
+        </div>
+        <span class="measurement-operator">></span>
+        <div>
+          <div class="measurement-title">Angle</div>
+          <div class="measurement-value">40</div>
+        </div>
+
+        <div>
+          <div class="measurement-title">Leak</div>
+          <div class="measurement-value">0</div>
+        </div>
+        <span class="measurement-operator">=</span>
+        <div>
+          <div class="measurement-title">Leak</div>
+          <div class="measurement-value">0</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="chart.js"></script>
+    <script type="text/javascript" src="firebase.js"></script>
+  </body>
+</html>
